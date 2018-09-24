@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ensiie-test:
+    image: ensiie-test-image
+    container_name: ensiie-test-image
+    volumes:
+      - /var/www/testdocker/src:/src
